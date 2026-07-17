@@ -33,30 +33,35 @@ const WALLETS: Wallet[] = [
   {
     chain: "Base",
     asset: "ETH",
-    address: "0x83eA1Db55cc6E34fCD11Da2b7849621af67b6E34",
+    address: "0x67e0C779119D9BcC2187564A66B80a58767d05d",
     preferred: true,
     note: "Cheapest fees, so more of your donation gets through.",
   },
   {
     chain: "Ethereum",
     asset: "ETH",
-    address: "0x83eA1Db55cc6E34fCD11Da2b7849621af67b6E34",
+    address: "0x67e0C779119D9BcC2187564A66B80a58767d05d",
     note: "Same address as Base.",
   },
   {
     chain: "Bitcoin",
     asset: "BTC",
-    address: "bc1qrxc3vpnl6qhh9p8akjmjukcgmgmq852ua64h05",
-  },
-  {
-    chain: "Solana",
-    asset: "SOL",
-    address: "T4BF5ioySVUjwaPNw4Sdu7oK8SXLxgQRcMaTQ6YJ2UJ",
+    address: "bc1qhuguk8gckzk6agzth2nc4duad2wuv0qhcukz3e",
   },
   {
     chain: "Bitcoin Cash",
     asset: "BCH",
-    address: "bitcoincash:qq460sfz69hdcgsq2d0j8dt8glheaq2tfurwwkazjr",
+    address: "bitcoincash:qqgx7hrq7m7fy27rely635t7jx66ugtm85n4u9mmhm",
+  },
+  {
+    chain: "Solana",
+    asset: "SOL",
+    address: "FA42vgp3A2P5aywwD7Qev7GyZK1Yd5p2cfLLGZ5Vs5cv",
+  },
+  {
+    chain: "Litecoin",
+    asset: "LTC",
+    address: "ltc1q04y9m60lawy3cscjpy6svfagmag34rr5gdkz97",
   },
 ];
 
