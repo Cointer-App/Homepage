@@ -63,6 +63,11 @@ const WALLETS: Wallet[] = [
     asset: "LTC",
     address: "ltc1q04y9m60lawy3cscjpy6svfagmag34rr5gdkz97",
   },
+  {
+    chain: "Monero",
+    asset: "XMR",
+    address: "06c24e572b2c58046b237c8845dc8b9ba9a0e26b8a46b52e72a04c00bcf31f03",
+  },
 ];
 
 function WalletCard({ wallet }: { wallet: Wallet }) {
